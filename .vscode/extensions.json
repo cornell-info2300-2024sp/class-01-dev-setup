@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-containers",
+    "adpyke.vscode-sql-formatter",
+    "pucelle.vscode-css-navigation",
+    "ecmel.vscode-html-css",
+    "yzhang.markdown-all-in-one",
+    "bierner.markdown-checkbox",
+    "davidanson.vscode-markdownlint",
+    "jgclark.vscode-todo-highlight",
+    "celianriboulet.webvalidator",
+    "yy0931.vscode-sqlite3-editor"
+  ]
+}

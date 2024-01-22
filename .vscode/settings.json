@@ -1,0 +1,50 @@
+{
+    "breadcrumbs.enabled": true,
+    "css.validate": false,
+    "debug.console.collapseIdenticalLines": false,
+    "debug.console.wordWrap": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.openExplorerOnEnd": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.maxColumn": 80,
+    "editor.minimap.showSlider": "always",
+    "editor.stickyScroll.enabled": true,
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.autofetch": true,
+    "html.format.wrapLineLength": 0,
+    "intelephense.diagnostics.enable": true,
+    "json.format.keepLines": true,
+    "markdownlint.config": {
+        "MD012": false,
+        "MD013": false,
+        "MD022": false,
+        "MD025": false,
+        "MD033": false,
+        "MD036": false,
+        "MD037": false,
+        "MD040": false
+    },
+    "php.validate.enable": true,
+    "todohighlight.enableDiagnostics": true,
+    "webvalidator.validateOnSave": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.tree.indent": 18,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    }
+}

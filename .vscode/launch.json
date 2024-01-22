@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PHP Development Server",
+      "type": "php",
+      "request": "launch",
+      "runtimeArgs": [
+        "-c", "${workspaceRoot}/.devcontainer/php.ini",
+        "-S",
+        "localhost:8080",
+        "router.php"
+      ],
+      "cwd": "${workspaceRoot}",
+      "port": 9000,
+      "serverReadyAction": {
+        "pattern": "Development Server \\(http://localhost:([0-9]+)\\) started",
+        "uriFormat": "http://localhost:%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}
